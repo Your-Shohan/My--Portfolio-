@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমার পোর্টফোলিও</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0077be; /* Ocean Blue */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+    .profile-img {
+      max-width: 150px;
+      border-radius: 50%;
+      margin: 20px auto;
+      display: block;
+    }
+    .social {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #0077be;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #0077be;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>আমার পোর্টফোলিও</h1>
+    <p>স্বাগতম আমার ব্যক্তিগত ওয়েবসাইটে</p>
+  </header>
+
+  <nav>
+    <a href="#home">হোম</a>
+    <a href="#about">আমাদের সম্পর্কে</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+
+  <section id="home">
+    <h2>হোম</h2>
+    <img src="https://via.placeholder.com/150" alt="প্রোফাইল ছবি" class="profile-img">
+    <p>আমি একজন ওয়েব ডেভেলপার এবং ডিজাইনার। এই ওয়েবসাইটে আপনি আমার কাজ সম্পর্কে জানতে পারবেন।</p>
+  </section>
+
+  <section id="about">
+    <h2>আমাদের সম্পর্কে</h2>
+    <p>আমার নাম জন ডো। আমি পেশাগতভাবে ওয়েব ডেভেলপমেন্ট নিয়ে কাজ করি। এই ওয়েবসাইটটি আমার কাজের নমুনা এবং অভিজ্ঞতা প্রদর্শনের জন্য তৈরি।</p>
+    <div class="social">
+      <p>আমাকে অনুসরণ করুন:</p>
+      <a href="#">Facebook</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">GitHub</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>যোগাযোগ</h2>
+    <form>
+      <input type="text" placeholder="আপনার নাম" required>
+      <input type="email" placeholder="আপনার ইমেইল" required>
+      <textarea rows="5" placeholder="আপনার বার্তা" required></textarea>
+      <button type="submit">পাঠান</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; ২০২৫ আমার পোর্টফোলিও. সর্বস্বত্ব সংরক্ষিত।</p>
+  </footer>
+</body>
+</html>
